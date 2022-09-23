@@ -13,12 +13,15 @@ namespace Bread.Models
       int unusedVar = ui;
       int eachPrice = 5;
       int numOfItem = 3;
-      int totalPrice = eachPrice * numOfItem;
-      if (numOfItem == 3)
+      // int saleNumOfItemPrice = numOfItem - 1;
+     
+
+      if (numOfItem % 3 == 0)
       {
-      totalPrice = 10;
+      numOfItem = numOfItem - 1;
       }
-          return totalPrice;
+      int totalPrice = eachPrice * numOfItem;
+      return totalPrice;
     }
   }
 }
