@@ -18,16 +18,16 @@ namespace Breadcalc.Models.Tests
       //Assert
       Assert.AreEqual(5, orderVariable.calcCost(1));
     }
-    // [TestMethod]
-    // public void CalcCost_outputCost_Number()
-    // {
-    //   // Arrange
+    [TestMethod]
+    public void CalcCost_outputCost_10()
+    {
+      // Arrange
 
-    //   //Act
-    //   Order orderVariable = new Order();
-    //   //Assert
-    //   Assert.AreEqual(5, orderVariable.calcCost(0));
-    // }
+      //Act
+      Order orderVariable = new Order();
+      //Assert
+      Assert.AreEqual(10, orderVariable.calcCost(3));
+    }
   }
 }
 
