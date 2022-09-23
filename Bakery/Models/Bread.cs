@@ -12,7 +12,7 @@ namespace Bread.Models
     {
       int unusedVar = ui;
       int eachPrice = 5;
-      int numOfItem = 0;
+      int numOfItem = 1;
       int totalPrice = eachPrice * numOfItem;
 
 
