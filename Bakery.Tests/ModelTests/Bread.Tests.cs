@@ -12,12 +12,11 @@ namespace Bread.Models.Tests
     public void CalcCost_outputCost_Number()
     {
       // Arrange
-      int order = 0;
-      int eachPrice = 5;
+     
       //Act
       Order orderVariable = new Order();
       //Assert
-      Assert.AreEqual("5", orderVariable.calcCost(1));
+      Assert.AreEqual(5, Order.calcCost(0));
     }
   }
 }
@@ -32,7 +31,7 @@ namespace Bread.Models.Tests
 //BREAD COST = $5 each, 
 //if bread# = 1,
 // charge $5
-// else if bread# = 2
+// else if bread# = 2 
 // charge $10
 // else if 
 // bread# = 3

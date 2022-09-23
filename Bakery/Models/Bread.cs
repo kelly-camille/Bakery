@@ -6,17 +6,16 @@ using System.Collections.Generic;
 
 namespace Bread.Models
 {
-  public class BreadCost
+  public class Order
   {
-    public int calcCost(int input)
+    public int calcCost(int ui)
     {
-      int unustedVar = input;
-      int order = 0;
       int eachPrice = 5;
-      int price = order * eachPrice;
+      int numOfItem = 0;
+      int totalPrice = eachPrice * numOfItem;
 
 
-          return price;
+          return totalPrice;
     }
   }
 }
