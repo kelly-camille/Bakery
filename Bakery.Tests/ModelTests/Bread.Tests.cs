@@ -3,20 +3,20 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using Bread.Models;
 
-namespace Bread.Models.Tests
+namespace Breadcalc.Models.Tests
 {
   [TestClass]
-  public class BreadCostTest
+  public class BreadTest
   {
     [TestMethod]
     public void CalcCost_outputCost_Number()
     {
       // Arrange
-     
+
       //Act
       Order orderVariable = new Order();
       //Assert
-      Assert.AreEqual(5, Order.calcCost(0));
+      Assert.AreEqual(5, orderVariable.calcCost(0));
     }
   }
 }

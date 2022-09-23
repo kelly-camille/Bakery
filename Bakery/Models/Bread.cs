@@ -10,6 +10,7 @@ namespace Bread.Models
   {
     public int calcCost(int ui)
     {
+      int unusedVar = ui;
       int eachPrice = 5;
       int numOfItem = 0;
       int totalPrice = eachPrice * numOfItem;
