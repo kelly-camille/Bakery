@@ -12,10 +12,8 @@ namespace Bread.Models
     {
       int unusedVar = ui;
       int eachPrice = 5;
-      int numOfItem = 3;
-      // int saleNumOfItemPrice = numOfItem - 1;
-     
-
+      int numOfItem = 9;
+      
       if (numOfItem % 3 == 0)
       {
       numOfItem = numOfItem - 1;
@@ -25,6 +23,19 @@ namespace Bread.Models
     }
   }
 }
+
+
+
+
+
+
+
+      // if (numOfItem % 3 == 0)
+      // {
+      // numOfItem = numOfItem - 1;
+      // }
+      // int totalPrice = eachPrice * numOfItem;
+      // return totalPrice;
 
 
 //       foreach (char c in word)

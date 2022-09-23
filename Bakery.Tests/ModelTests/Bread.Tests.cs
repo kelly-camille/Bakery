@@ -8,37 +8,36 @@ namespace Breadcalc.Models.Tests
   [TestClass]
   public class BreadTest
   {
-    [TestMethod]
-    public void CalcCost_outputCost_Number()
+    // [TestMethod]
+    // public void CalcCost_outputCost_Number()
+    // {
+    //   // Arrange
+
+    //   //Act
+    //   Order orderVariable = new Order();
+    //   //Assert
+    //   Assert.AreEqual(5, orderVariable.calcCost(1));
+    // }
+    // [TestMethod]
+    // public void CalcCost_outputCost_10()
+    // {
+    //   // Arrange
+
+    //   //Act
+    //   Order orderVariable = new Order();
+    //   //Assert
+    //   Assert.AreEqual(10, orderVariable.calcCost(3));
+    // }
+        [TestMethod]
+    public void CalcCost_outputCost_30()
     {
       // Arrange
 
       //Act
       Order orderVariable = new Order();
       //Assert
-      Assert.AreEqual(5, orderVariable.calcCost(1));
+      Assert.AreEqual(10, orderVariable.calcCost(9));
     }
-    [TestMethod]
-    public void CalcCost_outputCost_10()
-    {
-      // Arrange
-
-      //Act
-      Order orderVariable = new Order();
-      //Assert
-      Assert.AreEqual(10, orderVariable.calcCost(3));
-    }
-    [TestMethod]
-    public void CalcCost_outputCost_LimitString()
-    {
-      // Arrange
-
-      //Act
-      Order orderVariable = new Order();
-      //Assert
-      Assert.AreEqual(10, orderVariable.calcCost(3));
-    }
-    
   }
 }
 
