@@ -28,6 +28,17 @@ namespace Breadcalc.Models.Tests
       //Assert
       Assert.AreEqual(10, orderVariable.calcCost(3));
     }
+    [TestMethod]
+    public void CalcCost_outputCost_LimitString()
+    {
+      // Arrange
+
+      //Act
+      Order orderVariable = new Order();
+      //Assert
+      Assert.AreEqual(10, orderVariable.calcCost(3));
+    }
+    
   }
 }
 
