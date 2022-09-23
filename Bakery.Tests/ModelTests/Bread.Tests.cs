@@ -11,8 +11,13 @@ namespace Bread.Models.Tests
     [TestMethod]
     public void CalcCost_outputCost_Number()
     {
+      // Arrange
+      int order = 0;
+      int eachPrice = 5;
+      //Act
       Order orderVariable = new Order();
-      Assert.AreEqual("5", orderVariable.calcCost("bread"));
+      //Assert
+      Assert.AreEqual("5", orderVariable.calcCost(1));
     }
   }
 }
