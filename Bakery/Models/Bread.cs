@@ -12,20 +12,36 @@ namespace Bread.Models
     {
       int unusedVar = ui;
       int eachPrice = 5;
-      int numOfItem = 9;
-      
-      if (numOfItem % 3 == 0)
+      int numOfItem = 10;
+
+      if(numOfItem < 3)
       {
-      numOfItem = numOfItem - 1;
-      }
       int totalPrice = eachPrice * numOfItem;
       return totalPrice;
+      }
+      else if (numOfItem >= 3)
+      {
+      int freeItems = numOfItem / 3; //round down
+      int regPriceItems = numOfItem - freeItems;
+      int discount = freeItems * eachPrice;
+      int totalDiscountPrice = regPriceItems * eachPrice;
+      return totalDiscountPrice;
+      }
+      else
+      {
+      return 0;
+      }
     }
   }
 }
 
 
-
+      // if (numOfItem % 3 == 0)
+      // {
+      // numOfItem = numOfItem - 1;
+      // }
+      // int totalPrice = eachPrice * numOfItem;
+      // return totalPrice;
 
 
 

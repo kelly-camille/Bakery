@@ -36,7 +36,7 @@ namespace Breadcalc.Models.Tests
       //Act
       Order orderVariable = new Order();
       //Assert
-      Assert.AreEqual(10, orderVariable.calcCost(9));
+      Assert.AreEqual(35, orderVariable.calcCost(10));
     }
   }
 }
