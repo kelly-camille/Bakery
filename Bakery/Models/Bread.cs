@@ -3,12 +3,11 @@
 using System;
 using System.Collections.Generic;
 
-
 namespace Bread.Models
 {
   public class Order
   {
-    public int calcCost(int ui)
+    public int calcBCost(int ui)
     {
       int unusedVar = ui;
       int eachPrice = 5;

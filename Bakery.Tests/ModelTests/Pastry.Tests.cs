@@ -1,19 +1,23 @@
 // Pastry Tests
 
-// using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-// using Scorer.Models;
+using Pastry.Models;
 
-// namespace Scorer.Models.Tests
-// {
-//   [TestClass]
-//   public class GameTest
-//   {
-//     [TestMethod]
-//     public void tallyScore_outputWordScore_True()
-//     {
-//       Game gameVariable = new Game();
-//       Assert.AreEqual(21, gameVariable.tallyScore("butterscotch"));
-//     }
-//   }
-// }
+namespace Pastry.Models.Tests
+{
+  [TestClass]
+  public class PastryOrderTests
+  {
+    [TestMethod]
+    public void CalcPCost_outputCost_4()
+    {
+      // Arrange
+
+      //Act
+      PastryOrder pastryOrderVariable = new PastryOrder();
+      //Assert
+      Assert.AreEqual(10, pastryOrderVariable.calcPCost(2));
+    }
+  }
+}
