@@ -7,22 +7,22 @@ namespace Pastry.Models
 {
   public class PastryOrder
   {
-    public int calcPCost(int ui)
+    public int calcPCost(int pastriesUi)
     {
-      int unusedVar = ui;
+     
       int eachPrice = 2;
-      int numOfItem = 9;
+      // int numOfItemP = numOfItem;
       int discountPrice = 1;
 
-      if(numOfItem < 3)
+      if(pastriesUi < 3)
       {
-      int totalPrice = eachPrice * numOfItem;
+      int totalPrice = eachPrice * pastriesUi;
       return totalPrice;
       }
-      else if (numOfItem >= 3)
+      else if (pastriesUi >= 3)
       {
-      int discountItems = numOfItem / 3;
-      int regPriceItems = numOfItem - discountItems;
+      int discountItems = pastriesUi / 3;
+      int regPriceItems = pastriesUi - discountItems;
       int discount = discountItems * discountPrice;
       int regPrice = regPriceItems * eachPrice;
       int final = discount + regPrice;
@@ -34,4 +34,4 @@ namespace Pastry.Models
       }
     }
   }
-}
+} 

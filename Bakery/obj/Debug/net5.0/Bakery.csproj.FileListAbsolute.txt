@@ -10,3 +10,7 @@ C:\Users\kelly\OneDrive\Desktop\Bakery\Bakery\bin\Debug\net5.0\Bakery.pdb
 C:\Users\kelly\OneDrive\Desktop\Bakery\Bakery\obj\Debug\net5.0\Bakery.dll
 C:\Users\kelly\OneDrive\Desktop\Bakery\Bakery\obj\Debug\net5.0\ref\Bakery.dll
 C:\Users\kelly\OneDrive\Desktop\Bakery\Bakery\obj\Debug\net5.0\Bakery.pdb
+C:\Users\kelly\OneDrive\Desktop\Bakery\Bakery\bin\Debug\net5.0\Bakery.exe
+C:\Users\kelly\OneDrive\Desktop\Bakery\Bakery\bin\Debug\net5.0\Bakery.runtimeconfig.json
+C:\Users\kelly\OneDrive\Desktop\Bakery\Bakery\bin\Debug\net5.0\Bakery.runtimeconfig.dev.json
+C:\Users\kelly\OneDrive\Desktop\Bakery\Bakery\obj\Debug\net5.0\Bakery.genruntimeconfig.cache
