@@ -17,7 +17,7 @@ namespace Pastry.Models.Tests
       //Act
       PastryOrder pastryOrderVariable = new PastryOrder();
       //Assert
-      Assert.AreEqual(10, pastryOrderVariable.calcPCost(2));
+      Assert.AreEqual(15, pastryOrderVariable.calcPCost(9));
     }
   }
 }
