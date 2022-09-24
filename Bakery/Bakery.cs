@@ -1,13 +1,11 @@
 //UI
 using System;
 using System.Collections.Generic;
-// using Pastry.Models;
 using Bread.Models;
 using Pastry.Models;
 
 namespace Bakery
 {
-
 	public class Program
 	{
 		public static void Main()
@@ -16,14 +14,15 @@ namespace Bakery
       Console.WriteLine("How many loaves of bread would you like to order?");
       string breadUi = Console.ReadLine();
       int numOfItemB = Int32.Parse(breadUi);
+
       Console.WriteLine("How many pastries would you like to order?");
       string pastriesUi = Console.ReadLine();
       int numOfItemP = Int32.Parse(pastriesUi);
+
       Order orderVariable = new Order();
       PastryOrder pastryOrderVariable = new PastryOrder();
 
       int breadCost = orderVariable.calcBCost(numOfItemB);
-     
       int pastryCost =  pastryOrderVariable.calcPCost(numOfItemP);
    
       int finalCost = breadCost + pastryCost;

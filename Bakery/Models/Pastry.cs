@@ -11,7 +11,6 @@ namespace Pastry.Models
     {
      
       int eachPrice = 2;
-      // int numOfItemP = numOfItem;
       int discountPrice = 1;
 
       if(pastriesUi < 3)
