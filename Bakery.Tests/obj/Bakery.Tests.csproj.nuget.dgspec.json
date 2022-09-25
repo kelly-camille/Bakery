@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kelly\\OneDrive\\Desktop\\Bakery\\Bakery.Tests\\Bakery.Tests.csproj": {}
+    "C:\\Users\\kelly\\OneDrive\\Desktop\\Bakery\\bakery.Tests\\Bakery.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kelly\\OneDrive\\Desktop\\Bakery\\Bakery.Tests\\Bakery.Tests.csproj": {
+    "C:\\Users\\kelly\\OneDrive\\Desktop\\Bakery\\bakery.Tests\\Bakery.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kelly\\OneDrive\\Desktop\\Bakery\\Bakery.Tests\\Bakery.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\kelly\\OneDrive\\Desktop\\Bakery\\bakery.Tests\\Bakery.Tests.csproj",
         "projectName": "Bakery.Tests",
-        "projectPath": "C:\\Users\\kelly\\OneDrive\\Desktop\\Bakery\\Bakery.Tests\\Bakery.Tests.csproj",
+        "projectPath": "C:\\Users\\kelly\\OneDrive\\Desktop\\Bakery\\bakery.Tests\\Bakery.Tests.csproj",
         "packagesPath": "C:\\Users\\kelly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kelly\\OneDrive\\Desktop\\Bakery\\Bakery.Tests\\obj\\",
+        "outputPath": "C:\\Users\\kelly\\OneDrive\\Desktop\\Bakery\\bakery.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kelly\\AppData\\Roaming\\NuGet\\NuGet.Config"

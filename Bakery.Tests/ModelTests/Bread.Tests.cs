@@ -11,31 +11,25 @@ namespace Breadcalc.Models.Tests
     [TestMethod]
     public void CalcCost_outputCost_Number()
     {
-      // Arrange
-
-      //Act
       Order orderVariable = new Order();
-      //Assert
+      
       Assert.AreEqual(5, orderVariable.calcBCost(1));
     }
     [TestMethod]
     public void CalcCost_outputCost_10()
     {
-      // Arrange
-
-      //Act
+     
       Order orderVariable = new Order();
-      //Assert
+      
       Assert.AreEqual(10, orderVariable.calcBCost(3));
     }
         [TestMethod]
-    public void CalcCost_outputCost_30()
+    public void CalcCost_outputCost_35()
     {
-      // Arrange
-
-      //Act
+     
+    
       Order orderVariable = new Order();
-      //Assert
+     
       Assert.AreEqual(35, orderVariable.calcBCost(10));
     }
   }

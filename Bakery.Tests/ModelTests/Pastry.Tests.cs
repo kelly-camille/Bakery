@@ -10,7 +10,7 @@ namespace Pastry.Models.Tests
   public class PastryOrderTests
   {
     [TestMethod]
-    public void CalcPCost_outputCost_4()
+    public void CalcPCost_outputCost_15()
     {
       // Arrange
 
