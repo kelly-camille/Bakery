@@ -9,6 +9,14 @@ namespace Breadcalc.Models.Tests
   public class BreadTest
   {
     [TestMethod]
+    public void OrderConstructor_OutputOrder_Number()
+    {
+     Order newOrder = new Order();
+
+     Assert.AreEqual(typeof(Order), newOrder.GetType());
+    }
+
+    [TestMethod]
     public void CalcCost_outputCost_Number()
     {
       Order orderVariable = new Order();
@@ -16,7 +24,7 @@ namespace Breadcalc.Models.Tests
       Assert.AreEqual(5, orderVariable.calcBCost(1));
     }
     [TestMethod]
-    public void CalcCost_outputCost_10()
+    public void CalcCost_outputDiscountedCost_10()
     {
      
       Order orderVariable = new Order();

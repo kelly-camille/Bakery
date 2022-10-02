@@ -6,21 +6,23 @@ namespace Bread.Models
 {
   public class Order
   {
-    public int calcBCost(int breadUi)
-    {
-   
-      int eachPrice = 5;
-      // int numOfItemP = numOfItem;
+    public int Quantity_b { get; set; }
 
-      if(breadUi < 3)
+    public int calcBCost(int quantity_b)
+    {
+
+      Quantity_b = quantity_b;
+      int eachPrice = 5;
+
+      if(quantity_b < 3)
       {
-      int totalPrice = eachPrice * breadUi;
+      int totalPrice = eachPrice * quantity_b;
       return totalPrice;
       }
-      else if (breadUi >= 3)
+      else if (quantity_b >= 3)
       {
-      int freeItems = breadUi / 3; //round down
-      int regPriceItems = breadUi - freeItems;
+      int freeItems = quantity_b / 3; //round down
+      int regPriceItems = quantity_b - freeItems;
       int discount = freeItems * eachPrice;
       int totalDiscountPrice = regPriceItems * eachPrice;
       return totalDiscountPrice;

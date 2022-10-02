@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kelly\\OneDrive\\Desktop\\Bakery\\Bakery\\Bakery.csproj",
+      "projectUniqueName": "C:\\Users\\kelly\\OneDrive\\Desktop\\epicodus\\Bakery\\Bakery\\Bakery.csproj",
       "projectName": "Bakery",
-      "projectPath": "C:\\Users\\kelly\\OneDrive\\Desktop\\Bakery\\Bakery\\Bakery.csproj",
+      "projectPath": "C:\\Users\\kelly\\OneDrive\\Desktop\\epicodus\\Bakery\\Bakery\\Bakery.csproj",
       "packagesPath": "C:\\Users\\kelly\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kelly\\OneDrive\\Desktop\\Bakery\\Bakery\\obj\\",
+      "outputPath": "C:\\Users\\kelly\\OneDrive\\Desktop\\epicodus\\Bakery\\Bakery\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kelly\\AppData\\Roaming\\NuGet\\NuGet.Config"
